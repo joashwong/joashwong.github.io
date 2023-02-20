@@ -2,45 +2,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google analytics dogfooding</title>
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>joashwong.github.io | Personal repository</title>
-<meta name="generator" content="Jekyll v3.9.3">
-<meta property="og:title" content="joashwong.github.io">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="Personal repository">
-<meta property="og:description" content="Personal repository">
-<link rel="canonical" href="https://joashwong.github.io/">
-<meta property="og:url" content="https://joashwong.github.io/">
-<meta property="og:site_name" content="joashwong.github.io">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="joashwong.github.io">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Personal repository","headline":"joashwong.github.io","name":"joashwong.github.io","url":"https://joashwong.github.io/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=795de0c3f43c753209306ae395e6f21deadc8bc4">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
+    <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '251912562806051');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=251912562806051&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
 
-      <h1>test header</h1>
-<p>this is a test index page.</p>
-
-
+      <h1>Fire as many events as possible!</h1>
+      <button id="search">Search</button>
+      <button id="viewcategory">ViewCategory</button>
+      <button id="viewcontent">ViewContent</button>
+      <button id="addtocart">AddToCart</button>
+      <button id="purchase">Purchase</button>
 
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
